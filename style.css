@@ -1,0 +1,27 @@
+/* set height and remove default margin and padding for full-screen layout*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2c2c2f;
+    font-family: 'Courier New', Courier, monospace; /*fonts to be used */
+    }
+    /* container for centering the game elements */
+    #game-container {
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+    }
+    /* style for canvas elements */
+    canvas{
+        display: block; /* to remove the extra space below the canvas */
+        width: 100%;   /*makes the canvas more responsive */
+        height: auto;
+        border: 2px solid #403e3e;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0.3); 
+        /* shadow effect */
+    }
